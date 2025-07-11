@@ -8,7 +8,19 @@ export default function RootLayout() {
                 options={{
                     headerShown: false
                 }} />
+            <Stack.Screen
+                name="about"
+                options={{
+                    title: 'Acerca de',
+                    headerShown:true,
+                    headerStyle: {
+                        backgroundColor: '#333',
+                    },
+                    headerTintColor: '#fff',
+                    headerTitleStyle: {
+                        fontWeight: 'bold',
+                    },
+                }} />
         </Stack>
-
     );
 }
