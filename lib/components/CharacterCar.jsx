@@ -41,18 +41,9 @@ const styles = StyleSheet.create({
         marginBottom: 10,
         color: '#000000'
     },
-    species: {
-        fontSize: 16,
-        color: '#ffffff'
-    },
     status: {
         fontSize: 16,
         color: '#33caff'
-    },
-    gender: {
-        fontSize: 16,
-        color: '#ffffff',
-        fontWeight: 'bold'
     },
     logo: {
         backgroundColor: '#ff4433'
